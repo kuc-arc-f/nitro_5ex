@@ -4,7 +4,6 @@
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev",
-    "watch": "nodemon",
     "prepare": "nitro prepare",
     "preview": "node .output/server/index.mjs"
   },
