@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "svelte-spa-router": "^4.0.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.19.6",
+    "svelte-check": "^4.1.4",
+    "typescript": "~5.7.2",
+    "nitropack": "latest",
+    "vite": "^6.1.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
