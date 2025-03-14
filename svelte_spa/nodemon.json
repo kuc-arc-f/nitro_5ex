@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
-  "ext": "ts,tsx,css", 
+  "ext": "ts,tsx,css,svelte", 
   "ignore": ["routes/**/*.txt"],
-  "exec": "npx vite build"
+  "exec": "npm run prebuild"
 }
