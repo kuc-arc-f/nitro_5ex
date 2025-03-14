@@ -2,20 +2,22 @@
 
 import React from "react";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-//import Home from './client/home';
+
 function Home(){
   return (
-    <div>Home
+    <div>
+      <h1 className="text-3xl font-bold">Home</h1>
       <hr />
       <a href="/about">[ about ]</a>
       <hr />
-      <span>home!!!</span>
+      <span>home</span>
     </div>
   )
 }
 function About(){
   return (
-    <div>About
+    <div>
+      <h1 className="text-3xl font-bold">About</h1>
       <hr />
       <a href="/">[ home ]</a>
       <hr />

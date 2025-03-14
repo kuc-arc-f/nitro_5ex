@@ -4,6 +4,7 @@ export default eventHandler(async (event) => {
 <head>
     <meta charset="UTF-8">
     <title>Nitro Example</title>
+    <link href="/output.css" rel="stylesheet">
 </head>
 <body>
     <div type="module" id="app"></div>
