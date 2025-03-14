@@ -17,11 +17,11 @@ nitro React SPA ,  example
 * dev-start
 
 ```
-npx vite build
+npm run prebuild
 npm run dev
 
 #OR
-npx vite build && npm run dev
+npm run prebuild && npm run dev
 ```
 
 ***
