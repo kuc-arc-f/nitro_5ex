@@ -6,7 +6,7 @@
 
  date    : 2025/03/05 
 
- update  :
+ update  : 2025/03/14
 
 ***
 ### Summary
@@ -17,11 +17,11 @@ nitro + Vue SPA ,  example
 * dev-start
 
 ```
-npx vite build
+npm run prebuild
 npm run dev
 
 #OR
-npx vite build && npm run dev
+npm run prebuild && npm run dev
 ```
 
 ***
