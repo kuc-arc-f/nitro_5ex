@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "build": "nitro build",
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css",
     "dev": "nitro dev",
+    "prebuild": "npx vite build && npm run build:css",
     "prepare": "nitro prepare",
     "preview": "node .output/server/index.mjs"
   },
