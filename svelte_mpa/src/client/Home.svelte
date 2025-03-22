@@ -1,15 +1,10 @@
 <script lang="ts">
 import Head from '../components/Head.svelte';
+import Content from '../components/Home/Content.svelte';
 </script>
 
 <main>
-  <Head />
-  <div>
-    <h1 class="text-3xl font-bold">home</h1>
-    <hr />
-    <span><a href="/about" >[ about ]</a>
-    </span>
-  </div>  
+  <Content />
 </main>
 
 <style>
