@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "watch": "nodemon",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nitropack": "latest",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
